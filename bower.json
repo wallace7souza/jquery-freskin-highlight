@@ -1,0 +1,22 @@
+{
+  "name": "jquery-freskin-highlight",
+  "version": "1.0.0",
+  "homepage": "https://github.com/wallace7souza/jquery-freskin-highlight",
+  "authors": [
+    "wallace7souza <wallace.c.souza@gmail.com>"
+  ],
+  "description": "A jQuery plugin for highlight region of a page",
+  "main": ["dist/jquery.freskin.highlight.js","dist/jquery.freskin.highlight.css"],
+  "keywords": [
+    "jquery",
+    "highlight"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
