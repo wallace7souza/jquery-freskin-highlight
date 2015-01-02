@@ -45,7 +45,11 @@
             });
         }
 
-        $('#freskinHighlight').css({top: distance-10, left: left-10, 'border-radius': '10%'}).show();
+        var top2 = distance - 10;
+      if(settings.topAdjust){
+        top2 += settings.topAdjust;
+      }
+        $('#freskinHighlight').css({top: top2, left: left-10, 'border-radius': '10%'}).show();
 
         if(settings.message){
             var msgEl = $('#freskinHighlight').next();
@@ -75,12 +79,4 @@
     };
 
 }( jQuery ));
-
-
-/*<div id="freskinHighlight" ></div>
-<div class="alert alert-info" role="alert" style="z-index: 2000;position: fixed;display: none;">
-<button ></button>
-</div>
-*/
-
 
