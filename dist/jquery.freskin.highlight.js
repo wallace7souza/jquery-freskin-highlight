@@ -26,7 +26,6 @@
 
         $('#freskinHighlight').show().next().css('z-index',settings['z-index']);
 
-        console.log(this);
         var targetEl = $(this);
         var left = targetEl.offset().left;
 
